@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "mcp:server": "npx @playwright/mcp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAsrar/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AhmedAsrar/test/issues"
+  },
+  "homepage": "https://github.com/AhmedAsrar/test#readme",
+  "dependencies": {
+    "@playwright/mcp": "^0.0.75",
+    "@playwright/test": "^1.60.0"
+  }
+}
