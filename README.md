@@ -23,9 +23,16 @@ npx playwright install
 Example:
 
 ```bash
-set APP_URL=http://localhost:5173
-set APP_START_COMMAND=npm run dev
+set APP_URL=https://test.alt-pulse.com/
+set APP_START_COMMAND=
 ```
+
+## CI (GitHub Actions)
+
+- Workflow file: `.github/workflows/playwright.yml`
+- Runs on push to `main`, pull requests to `main`, and manual trigger.
+- By default CI targets `https://test.alt-pulse.com/`.
+- Optional: add a repository secret named `APP_URL` to override the target URL in CI.
 
 ## Run Tests
 
