@@ -47,7 +47,32 @@ npm run test:ui
 npm run test:headed
 npm run test:debug
 npm run test:report
+npm run test:e2e
+npm run test:e2e:chromium
 ```
+
+## Complete Module E2E Coverage
+
+The `tests/e2e` suite uses page-object models in `pages/` and executes module-wise scenarios with:
+
+- Positive cases: authenticated user can access each module page.
+- Negative cases: unauthenticated access is redirected to login.
+- Edge cases: authenticated page remains stable after browser reload.
+
+Module specs:
+
+- `tests/e2e/auth.module.spec.ts`
+- `tests/e2e/core.module.spec.ts`
+- `tests/e2e/ai.module.spec.ts`
+- `tests/e2e/operations.module.spec.ts`
+- `tests/e2e/settings.module.spec.ts`
+
+POM maps by module:
+
+- `tests/e2e/pom/core.pages.ts`
+- `tests/e2e/pom/ai.pages.ts`
+- `tests/e2e/pom/operations.pages.ts`
+- `tests/e2e/pom/settings.pages.ts`
 
 ## Project Structure
 

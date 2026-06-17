@@ -8,7 +8,9 @@
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
-    "test:report": "playwright show-report"
+    "test:report": "playwright show-report",
+    "test:e2e": "playwright test tests/e2e",
+    "test:e2e:chromium": "playwright test tests/e2e --project=chromium"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3",
     "dotenv": "^17.4.2"
   }
 }
