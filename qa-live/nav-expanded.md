@@ -1,0 +1,408 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - banner:
+          - button:
+            - img
+          - link:
+            - /url: /
+            - img
+          - generic:
+            - generic:
+              - img
+            - button:
+              - img
+            - button:
+              - img
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                      - generic:
+                        - generic: 68%
+                    - generic: Health Score
+                  - generic:
+                    - generic:
+                      - heading [level=1]: Good morning, Organization Admin
+                    - generic:
+                      - generic:
+                        - generic: domain
+                        - generic: Sites
+                        - generic: "3"
+                      - generic:
+                        - generic: apartment
+                        - generic: Buildings
+                        - generic: "4"
+                      - generic:
+                        - generic: layers
+                        - generic: Floors
+                        - generic: "9"
+                      - generic:
+                        - generic: sensors
+                        - generic: Devices
+                        - generic: "1087"
+                    - generic:
+                      - generic:
+                        - generic: bolt
+                        - generic:
+                          - generic:
+                            - generic: "33309.8"
+                            - generic: kWh
+                          - paragraph: ENERGY
+                      - generic:
+                        - generic: water_drop
+                        - generic:
+                          - generic:
+                            - generic: "75.6"
+                            - generic: m³
+                          - paragraph: WATER
+                      - generic:
+                        - generic: payments
+                        - generic:
+                          - generic:
+                            - generic: "9821.9"
+                            - generic: AED
+                          - paragraph: COST
+                      - generic:
+                        - generic: eco
+                        - generic:
+                          - generic:
+                            - generic: "13175.6"
+                            - generic: kg
+                          - paragraph: CO₂
+                    - generic:
+                      - generic:
+                        - generic: "8"
+                        - text: critical
+                      - generic:
+                        - generic: "8"
+                        - text: major
+                      - generic:
+                        - generic: "8"
+                        - text: minor
+                      - generic:
+                        - generic: "19"
+                        - text: warning
+              - generic:
+                - generic:
+                  - heading [level=2]:
+                    - generic: apartment
+                    - text: Building Performance
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                          - generic:
+                            - generic:
+                              - generic: arrow_forward
+                          - generic:
+                            - generic:
+                              - heading [level=3]: ALEMCO Head Office
+                              - generic: Score 72/100
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: device_thermostat
+                                  - generic: Thermal
+                                - generic:
+                                  - generic: "72"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: chair
+                                  - generic: Space
+                                - generic:
+                                  - generic: "71"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: bolt
+                                  - generic: Energy
+                                - generic:
+                                  - generic: "62"
+                                  - generic: "%"
+                          - generic:
+                            - generic:
+                              - generic: error
+                              - paragraph: Diagnose HVAC temperature control failure — 40 breaches in 7 days with compliance dropping to 0% indicates equipment malfunction requiring immediate attention
+                            - generic: +2 more actions
+                            - generic:
+                              - generic:
+                                - generic: error
+                                - paragraph: Reprogram HVAC schedules to implement after-hours setback temperatures and reduce the 28.92% after-hours energy ratio
+                              - generic:
+                                - generic: error
+                                - paragraph: Audit and correct all zone thermostat setpoints to ensure alignment with design specifications and occupant comfort requirements
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                          - generic:
+                            - generic:
+                              - generic: arrow_forward
+                          - generic:
+                            - generic:
+                              - heading [level=3]: Whitespace (DIC)
+                              - generic: Score 60/100
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: device_thermostat
+                                  - generic: Thermal
+                                - generic:
+                                  - generic: "63"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: chair
+                                  - generic: Space
+                                - generic:
+                                  - generic: "50"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: bolt
+                                  - generic: Energy
+                                - generic:
+                                  - generic: "62"
+                                  - generic: "%"
+                          - generic:
+                            - generic:
+                              - generic: error
+                              - paragraph: Diagnose HVAC temperature control failure — verify setpoints, check sensor calibration, and inspect equipment faults causing 41 temperature breaches
+                            - generic: +2 more actions
+                            - generic:
+                              - generic:
+                                - generic: error
+                                - paragraph: Reprogram BMS schedules to align HVAC operation with actual occupancy patterns — reduce after-hours runtime from 37% toward 15%
+                              - generic:
+                                - generic: error
+                                - paragraph: Investigate ventilation performance on high-occupancy days — the 2,123 ppm CO2 peak indicates inadequate fresh air supply during peak loads
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                          - generic:
+                            - generic:
+                              - generic: arrow_forward
+                          - generic:
+                            - generic:
+                              - heading [level=3]: Marina Plaza
+                              - generic: Score 72/100
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: device_thermostat
+                                  - generic: Thermal
+                                - generic:
+                                  - generic: "80"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: chair
+                                  - generic: Space
+                                - generic:
+                                  - generic: "61"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: bolt
+                                  - generic: Energy
+                                - generic:
+                                  - generic: "62"
+                                  - generic: "%"
+                          - generic:
+                            - generic:
+                              - generic: error
+                              - paragraph: Reprogram HVAC and lighting schedules to reduce after-hours operation from 36.95% toward 15% benchmark
+                            - generic: +2 more actions
+                            - generic:
+                              - generic:
+                                - generic: error
+                                - paragraph: Inspect and service HVAC dehumidification system to address 36 humidity breaches
+                              - generic:
+                                - generic: error
+                                - paragraph: Investigate water meter connectivity to restore WUI monitoring on days with data gaps
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: apartment
+                          - generic:
+                            - generic:
+                              - generic: arrow_forward
+                          - generic:
+                            - generic:
+                              - heading [level=3]: STRIVE Tent
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: device_thermostat
+                                  - generic: Thermal
+                                - generic:
+                                  - generic: "--"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: chair
+                                  - generic: Space
+                                - generic:
+                                  - generic: "--"
+                                  - generic: "%"
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: bolt
+                                  - generic: Energy
+                                - generic:
+                                  - generic: "--"
+                                  - generic: "%"
+                - link:
+                  - /url: /reports
+                  - text: Click to view full report
+              - generic:
+                - generic:
+                  - generic: checklist
+                  - generic: Immediate Actions Required
+                  - generic: (9)
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: CRITICAL
+                      - generic: AED 0–500 (staff time only)
+                    - generic:
+                      - paragraph: Diagnose HVAC temperature control failure — 40 breaches in 7 days with compliance dropping to 0% indicates equipment malfunction requiring immediate attention
+                      - paragraph: "Impact: Restore occupant comfort, prevent potential lease compliance issues, and eliminate equipment damage from continuous operation"
+                  - generic:
+                    - generic:
+                      - generic: CRITICAL
+                      - generic: AED 0 (staff time only)
+                    - generic:
+                      - paragraph: Reprogram HVAC schedules to implement after-hours setback temperatures and reduce the 28.92% after-hours energy ratio
+                      - paragraph: "Impact: Immediate 8–12% energy reduction, estimated AED 150–300 weekly savings"
+                  - generic:
+                    - generic:
+                      - generic: HIGH
+                      - generic: AED 0–500 (staff time only)
+                    - generic:
+                      - paragraph: Audit and correct all zone thermostat setpoints to ensure alignment with design specifications and occupant comfort requirements
+                      - paragraph: "Impact: Restore temperature compliance from 0% toward 80%+ target, improve IEQ score"
+                - button: +6 more actions across all buildings
+        - generic:
+          - text: Powered by PULSE
+          - generic:
+            - generic: Talk to My Building
+        - contentinfo:
+          - paragraph: v1.1.0_TEST | © 2026, All Rights Reserved.
+          - generic:
+            - generic:
+              - text: Terms of Use
+              - generic: "|"
+            - generic:
+              - text: Privacy Policy
+              - generic: "|"
+            - generic: Support
+  - region "Notifications alt+T"
+  - alert
+  - dialog "Sidebar" [ref=e308]:
+    - generic [ref=e309]:
+      - heading "Sidebar" [level=2]
+      - paragraph: Displays the mobile sidebar.
+    - generic [ref=e311]:
+      - generic [ref=e314]:
+        - link "pulse logo" [ref=e316] [cursor=pointer]:
+          - /url: /
+          - img "pulse logo" [ref=e317]
+        - link "Pulse Logo" [ref=e318] [cursor=pointer]:
+          - /url: /
+          - img "Pulse Logo" [ref=e319]
+      - generic [ref=e320]:
+        - list [ref=e322]:
+          - listitem [ref=e323]:
+            - link "Home" [ref=e324] [cursor=pointer]:
+              - /url: /
+              - img [ref=e325]
+              - generic [ref=e327]: Home
+        - list [ref=e329]:
+          - listitem [ref=e330]:
+            - link "Asset Management" [ref=e331] [cursor=pointer]:
+              - /url: /asset-management
+              - img [ref=e332]
+              - generic [ref=e337]: Asset Management
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - link "Portfolio" [ref=e341] [cursor=pointer]:
+              - /url: /overview-map
+              - img [ref=e342]
+              - generic [ref=e344]: Portfolio
+        - list [ref=e346]:
+          - listitem [ref=e348]:
+            - button "Analytics" [active] [ref=e349] [cursor=pointer]:
+              - img [ref=e350]
+              - generic [ref=e352]: Analytics
+              - img [ref=e353]
+        - list [ref=e356]:
+          - listitem [ref=e358]:
+            - button "AI & Intelligence" [ref=e359] [cursor=pointer]:
+              - img [ref=e360]
+              - generic [ref=e368]: AI & Intelligence
+              - img [ref=e369]
+        - list [ref=e372]:
+          - listitem [ref=e374]:
+            - button "Operations" [ref=e375] [cursor=pointer]:
+              - img [ref=e376]
+              - generic [ref=e378]: Operations
+              - img [ref=e379]
+        - list [ref=e382]:
+          - listitem [ref=e384]:
+            - button "AI Engineer" [ref=e385] [cursor=pointer]:
+              - img [ref=e386]
+              - generic [ref=e389]: AI Engineer
+              - img [ref=e390]
+        - list [ref=e393]:
+          - listitem [ref=e395]:
+            - button "Settings" [ref=e396] [cursor=pointer]:
+              - img [ref=e397]
+              - generic [ref=e400]: Settings
+              - img [ref=e401]
+      - generic [ref=e403]:
+        - generic [ref=e404]:
+          - img [ref=e405]
+          - generic [ref=e408]: Notifications
+        - button "Dark Mode" [ref=e410] [cursor=pointer]:
+          - img [ref=e411]
+          - generic [ref=e413]: Dark Mode
+        - generic [ref=e414]:
+          - paragraph [ref=e415]: orgadmintest@alt-pulse.com
+          - paragraph [ref=e416]: Organization Admin
+        - button "Logout" [ref=e417] [cursor=pointer]:
+          - img [ref=e418]
+          - generic [ref=e421]: Logout
+        - button "Keep open" [ref=e422] [cursor=pointer]:
+          - img [ref=e423]
+          - generic [ref=e425]: Keep open

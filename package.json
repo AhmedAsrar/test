@@ -9,8 +9,11 @@
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
     "test:report": "playwright show-report",
-    "test:e2e": "playwright test tests/e2e",
-    "test:e2e:chromium": "playwright test tests/e2e --project=chromium"
+    "test:chromium": "playwright test --project=setup --project=chromium",
+    "test:auth": "playwright test --project=anonymous",
+    "test:crossbrowser": "playwright test --project=setup --project=firefox --project=webkit",
+    "test:responsive": "playwright test --project=setup --project=tablet --project=mobile",
+    "test:smoke": "playwright test --project=setup --project=chromium specs/navigation.spec.ts"
   },
   "keywords": [],
   "author": "",

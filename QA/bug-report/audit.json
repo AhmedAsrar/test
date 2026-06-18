@@ -1,0 +1,1610 @@
+[
+  {
+    "name": "Portfolio Dashboard",
+    "route": "/",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-24 -top-24 w-72 h-72 rounded-full opacity-[0",
+            "right": 1523,
+            "left": 1235,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 2983
+      },
+      "shot": "QA/bug-report/screenshots/portfolio-dashboard.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-24 -top-24 w-72 h-72 rounded-full opacity-[0",
+            "right": 469,
+            "left": 181,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 2958
+      },
+      "shot": "QA/bug-report/screenshots/portfolio-dashboard.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Asset Management",
+    "route": "/asset-management",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin-label",
+            "right": 1450,
+            "left": 1344,
+            "text": "MARINA PLAZA"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "0 devices"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 2143
+      },
+      "shot": "QA/bug-report/screenshots/asset-management.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Scanning asset fleet...",
+          "0 online of 0 total",
+          "0 devices across 0 types"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 415
+      },
+      "shot": "QA/bug-report/screenshots/asset-management.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/asset-management/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Overview Map",
+    "route": "/overview-map",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "shrink-0 glass-panel px-4 py-3 rounded-xl flex items-center ",
+            "right": 1595,
+            "left": 1415,
+            "text": "devices_other\nBACnet Device\n4 devices"
+          },
+          {
+            "tag": "DIV",
+            "cls": "w-9 h-9 rounded-lg flex items-center justify-center bg-purpl",
+            "right": 1468,
+            "left": 1432,
+            "text": "devices_other"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[20px]!",
+            "right": 1460,
+            "left": 1440,
+            "text": "devices_other"
+          },
+          {
+            "tag": "DIV",
+            "cls": "flex flex-col min-w-0",
+            "right": 1567,
+            "left": 1480,
+            "text": "BACnet Device\n4 devices"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-xs font-semibold text-primary truncate capitalize",
+            "right": 1567,
+            "left": 1480,
+            "text": "BACnet Device"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-xs text-secondary",
+            "right": 1567,
+            "left": 1480,
+            "text": "4 devices"
+          },
+          {
+            "tag": "DIV",
+            "cls": "shrink-0 glass-panel px-4 py-3 rounded-xl flex items-center ",
+            "right": 1785,
+            "left": 1605,
+            "text": "air\nCO₂ Sensor\n26 devices"
+          },
+          {
+            "tag": "DIV",
+            "cls": "w-9 h-9 rounded-lg flex items-center justify-center bg-purpl",
+            "right": 1658,
+            "left": 1622,
+            "text": "air"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[20px]!",
+            "right": 1650,
+            "left": 1630,
+            "text": "air"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "0 devices"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 4,
+        "mainCount": 2,
+        "bodyTextLen": 2827
+      },
+      "shot": "QA/bug-report/screenshots/overview-map.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "overview-site-marker maplibregl-marker maplibregl-marker-anc",
+            "right": -137,
+            "left": -149,
+            "text": "ALEC DIC YARD"
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin light",
+            "right": -137,
+            "left": -149,
+            "text": "ALEC DIC YARD"
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin-dot",
+            "right": -137,
+            "left": -149,
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin-ring",
+            "right": -128,
+            "left": -158,
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin-label",
+            "right": -89,
+            "left": -197,
+            "text": "ALEC DIC YARD"
+          },
+          {
+            "tag": "DIV",
+            "cls": "overview-site-marker maplibregl-marker maplibregl-marker-anc",
+            "right": -1783,
+            "left": -1795,
+            "text": "Khazna Elysium Data Center"
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin light",
+            "right": -1783,
+            "left": -1795,
+            "text": "Khazna Elysium Data Center"
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin-dot",
+            "right": -1783,
+            "left": -1795,
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "cls": "site-pin-ring",
+            "right": -1774,
+            "left": -1804,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "0 devices"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 4,
+        "mainCount": 2,
+        "bodyTextLen": 2674
+      },
+      "shot": "QA/bug-report/screenshots/overview-map.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/overview-map/",
+    "consoleErrors": []
+  },
+  {
+    "name": "AI Reports",
+    "route": "/reports",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 5288
+      },
+      "shot": "QA/bug-report/screenshots/ai-reports.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "dark:data-[state=active]:text-primary focus-visible:border-n",
+            "right": 405,
+            "left": 266,
+            "text": "03\nThermal & air"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "dark:data-[state=active]:text-primary focus-visible:border-n",
+            "right": 505,
+            "left": 405,
+            "text": "04\nEnergy"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-sm text-purple font-bold group-data-[state=active]:text",
+            "right": 437,
+            "left": 418,
+            "text": "04"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "font-semibold group-data-[state=active]:text-white",
+            "right": 492,
+            "left": 445,
+            "text": "Energy"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "dark:data-[state=active]:text-primary focus-visible:border-n",
+            "right": 638,
+            "left": 505,
+            "text": "05\nOccupancy"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-sm text-purple font-bold group-data-[state=active]:text",
+            "right": 537,
+            "left": 518,
+            "text": "05"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "font-semibold group-data-[state=active]:text-white",
+            "right": 625,
+            "left": 545,
+            "text": "Occupancy"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "dark:data-[state=active]:text-primary focus-visible:border-n",
+            "right": 754,
+            "left": 638,
+            "text": "06\nPlaybook"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [
+          {
+            "a": "ALEC",
+            "b": "Building",
+            "overlap": "86%"
+          },
+          {
+            "a": "ALEC DIC YARD",
+            "b": "Floor",
+            "overlap": "86%"
+          },
+          {
+            "a": "ALEC DIC YARD",
+            "b": "ALEMCO Head Office",
+            "overlap": "38%"
+          }
+        ],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 5288
+      },
+      "shot": "QA/bug-report/screenshots/ai-reports.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/reports/",
+    "consoleErrors": []
+  },
+  {
+    "name": "AI Insights",
+    "route": "/ai-insights",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 4958
+      },
+      "shot": "QA/bug-report/screenshots/ai-insights.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [
+          {
+            "a": "ALEC DIC YARD",
+            "b": "ALEMCO Head Office",
+            "overlap": "45%"
+          }
+        ],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 4958
+      },
+      "shot": "QA/bug-report/screenshots/ai-insights.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/ai-insights/",
+    "consoleErrors": []
+  },
+  {
+    "name": "AI Chat",
+    "route": "/ai-chat",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 4,
+        "mainCount": 2,
+        "bodyTextLen": 9867
+      },
+      "shot": "QA/bug-report/screenshots/ai-chat.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 4,
+        "mainCount": 2,
+        "bodyTextLen": 9867
+      },
+      "shot": "QA/bug-report/screenshots/ai-chat.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/ai-chat/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Energy Intelligence",
+    "route": "/energy-savings",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 5834
+      },
+      "shot": "QA/bug-report/screenshots/energy-intelligence.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "cls": "relative w-[200px] h-[200px] shrink-0",
+            "right": 172,
+            "left": -28,
+            "text": "9\nOpportunities"
+          },
+          {
+            "tag": "svg",
+            "cls": "[object SVGAnimatedString]",
+            "right": 172,
+            "left": -28,
+            "text": ""
+          },
+          {
+            "tag": "DIV",
+            "cls": "absolute inset-0 flex flex-col items-center justify-center",
+            "right": 172,
+            "left": -28,
+            "text": "9\nOpportunities"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-xs font-semibold text-primary w-[120px] truncate- text-",
+            "right": 447,
+            "left": 327,
+            "text": "8–12%"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-xs font-semibold text-primary w-[120px] truncate- text-",
+            "right": 447,
+            "left": 327,
+            "text": "5–10%"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-xs font-semibold text-primary w-[120px] truncate- text-",
+            "right": 447,
+            "left": 327,
+            "text": "5–10%"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-xs font-semibold text-primary w-[120px] truncate- text-",
+            "right": 447,
+            "left": 327,
+            "text": "3–7%"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "text-xs font-semibold text-primary w-[120px] truncate- text-",
+            "right": 447,
+            "left": 327,
+            "text": "3–5%"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 5834
+      },
+      "shot": "QA/bug-report/screenshots/energy-intelligence.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/energy-savings/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Compliance",
+    "route": "/compliance",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 4078
+      },
+      "shot": "QA/bug-report/screenshots/compliance.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 4078
+      },
+      "shot": "QA/bug-report/screenshots/compliance.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/compliance/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Work Orders",
+    "route": "/maintenance",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 2235
+      },
+      "shot": "QA/bug-report/screenshots/work-orders.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          },
+          {
+            "tag": "TABLE",
+            "cls": "w-full border-collapse text-xs",
+            "right": 656,
+            "left": 30,
+            "text": "WO #\tDescription\tSystem\tPriority\tStatus\t"
+          },
+          {
+            "tag": "THEAD",
+            "cls": "sticky top-0 z-10 bg-background",
+            "right": 656,
+            "left": 30,
+            "text": "WO #\tDescription\tSystem\tPriority\tStatus\t"
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "right": 656,
+            "left": 30,
+            "text": "WO #\tDescription\tSystem\tPriority\tStatus\t"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left px-3 py-2 text-secondary font-medium border-b bord",
+            "right": 516,
+            "left": 388,
+            "text": "Status"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left px-3 py-2 text-secondary font-medium border-b bord",
+            "right": 593,
+            "left": 516,
+            "text": "Assigned"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left px-3 py-2 text-secondary font-medium border-b bord",
+            "right": 656,
+            "left": 593,
+            "text": "Due"
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "right": 656,
+            "left": 30,
+            "text": "WO-1052\tAHU-03 mixing damper stuck — rep"
+          },
+          {
+            "tag": "TR",
+            "cls": "hover:bg-muted/40 transition-colors",
+            "right": 656,
+            "left": 30,
+            "text": "WO-1052\tAHU-03 mixing damper stuck — rep"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 2235
+      },
+      "shot": "QA/bug-report/screenshots/work-orders.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/maintenance/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Maintenance Calendar",
+    "route": "/maintenance-calendar",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 728
+      },
+      "shot": "QA/bug-report/screenshots/maintenance-calendar.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "right": -9887,
+            "left": -9969,
+            "text": "Time\t\tEvent"
+          },
+          {
+            "tag": "TR",
+            "cls": "",
+            "right": -9887,
+            "left": -9969,
+            "text": "Time\t\tEvent"
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "right": -9932,
+            "left": -9969,
+            "text": "Time"
+          },
+          {
+            "tag": "TH",
+            "cls": "",
+            "right": -9887,
+            "left": -9932,
+            "text": "Event"
+          },
+          {
+            "tag": "TABLE",
+            "cls": "w-full caption-bottom text-sm",
+            "right": 725,
+            "left": 31,
+            "text": "Floor\n\tRoom\n\tEquipment Name\n\tActual Run "
+          },
+          {
+            "tag": "THEAD",
+            "cls": "[&_tr]:border-b",
+            "right": 725,
+            "left": 31,
+            "text": "Floor\n\tRoom\n\tEquipment Name\n\tActual Run "
+          },
+          {
+            "tag": "TR",
+            "cls": "data-[state=selected]:bg-muted border-b transition-colors bo",
+            "right": 725,
+            "left": 31,
+            "text": "Floor\n\tRoom\n\tEquipment Name\n\tActual Run "
+          },
+          {
+            "tag": "TH",
+            "cls": "text-main text-xs text-left align-middle font-medium whitesp",
+            "right": 523,
+            "left": 364,
+            "text": "Actual Run Hours"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 542
+      },
+      "shot": "QA/bug-report/screenshots/maintenance-calendar.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/maintenance-calendar/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Fault Detection",
+    "route": "/fdd",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 5114
+      },
+      "shot": "QA/bug-report/screenshots/fault-detection.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          },
+          {
+            "tag": "TABLE",
+            "cls": "w-full text-xs",
+            "right": 760,
+            "left": 30,
+            "text": "FAULT ID\tDESCRIPTION\tSYSTEM\tLOCATION\tSEV"
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "right": 760,
+            "left": 30,
+            "text": "FAULT ID\tDESCRIPTION\tSYSTEM\tLOCATION\tSEV"
+          },
+          {
+            "tag": "TR",
+            "cls": "border-b border-primary-border",
+            "right": 760,
+            "left": 30,
+            "text": "FAULT ID\tDESCRIPTION\tSYSTEM\tLOCATION\tSEV"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left py-2.5 px-3 text-secondary font-semibold uppercase",
+            "right": 461,
+            "left": 373,
+            "text": "SEVERITY"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left py-2.5 px-3 text-secondary font-semibold uppercase",
+            "right": 577,
+            "left": 461,
+            "text": "STATUS"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left py-2.5 px-3 text-secondary font-semibold uppercase",
+            "right": 667,
+            "left": 577,
+            "text": "DETECTED"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left py-2.5 px-3 text-secondary font-semibold uppercase",
+            "right": 760,
+            "left": 667,
+            "text": "EST. IMPACT"
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "right": 760,
+            "left": 30,
+            "text": "FDD-2847\tAHU-03 supply fan VFD oscillati"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 5114
+      },
+      "shot": "QA/bug-report/screenshots/fault-detection.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/fdd/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Smart Commissioning",
+    "route": "/smart-cx",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 3801
+      },
+      "shot": "QA/bug-report/screenshots/smart-commissioning.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          },
+          {
+            "tag": "TABLE",
+            "cls": "w-full text-xs",
+            "right": 623,
+            "left": 30,
+            "text": "ISSUE ID\tDESCRIPTION\tSYSTEM\tPRIORITY\tSTA"
+          },
+          {
+            "tag": "THEAD",
+            "cls": "",
+            "right": 623,
+            "left": 30,
+            "text": "ISSUE ID\tDESCRIPTION\tSYSTEM\tPRIORITY\tSTA"
+          },
+          {
+            "tag": "TR",
+            "cls": "border-b border-primary-border",
+            "right": 623,
+            "left": 30,
+            "text": "ISSUE ID\tDESCRIPTION\tSYSTEM\tPRIORITY\tSTA"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left py-2.5 px-3 text-secondary font-semibold uppercase",
+            "right": 456,
+            "left": 364,
+            "text": "STATUS"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left py-2.5 px-3 text-secondary font-semibold uppercase",
+            "right": 527,
+            "left": 456,
+            "text": "FOUND"
+          },
+          {
+            "tag": "TH",
+            "cls": "text-left py-2.5 px-3 text-secondary font-semibold uppercase",
+            "right": 623,
+            "left": 527,
+            "text": "IMPACT"
+          },
+          {
+            "tag": "TBODY",
+            "cls": "",
+            "right": 623,
+            "left": 30,
+            "text": "CX-087\tAHU-02 economiser damper not achi"
+          },
+          {
+            "tag": "TR",
+            "cls": "border-b border-primary-border hover:bg-[var(--brand-accent-",
+            "right": 623,
+            "left": 30,
+            "text": "CX-087\tAHU-02 economiser damper not achi"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 3801
+      },
+      "shot": "QA/bug-report/screenshots/smart-commissioning.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/smart-cx/",
+    "consoleErrors": []
+  },
+  {
+    "name": "HVAC Optimization",
+    "route": "/start-stop",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 1467,
+            "left": 1291,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 2384
+      },
+      "shot": "QA/bug-report/screenshots/hvac-optimization.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "absolute -right-10 -top-10 w-44 h-44 rounded-full bg-purple/",
+            "right": 413,
+            "left": 237,
+            "text": ""
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [
+          "Integration Pending"
+        ],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 2384
+      },
+      "shot": "QA/bug-report/screenshots/hvac-optimization.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/start-stop/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Profile",
+    "route": "/settings/profile",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 1769
+      },
+      "shot": "QA/bug-report/screenshots/profile.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 1769
+      },
+      "shot": "QA/bug-report/screenshots/profile.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/settings/profile/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Theme Settings",
+    "route": "/settings/theme-settings",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 4,
+        "mainCount": 2,
+        "bodyTextLen": 2067
+      },
+      "shot": "QA/bug-report/screenshots/theme-settings.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 4,
+        "mainCount": 2,
+        "bodyTextLen": 2067
+      },
+      "shot": "QA/bug-report/screenshots/theme-settings.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/settings/theme-settings/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Users",
+    "route": "/settings/users",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 893
+      },
+      "shot": "QA/bug-report/screenshots/users.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "flex flex-col gap-2 w-fit shrink-0",
+            "right": 931,
+            "left": 364,
+            "text": "groups\nAll\ncheck_circle\nActive\nschedule\n"
+          },
+          {
+            "tag": "DIV",
+            "cls": "text-muted-foreground inline-flex h-10- items-center justify",
+            "right": 931,
+            "left": 364,
+            "text": "groups\nAll\ncheck_circle\nActive\nschedule\n"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 444,
+            "left": 364,
+            "text": "groups\nAll"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[15px]",
+            "right": 405,
+            "left": 381,
+            "text": "groups"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 555,
+            "left": 452,
+            "text": "check_circle\nActive"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[15px]",
+            "right": 493,
+            "left": 469,
+            "text": "check_circle"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 675,
+            "left": 563,
+            "text": "schedule\nInactive"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[15px]",
+            "right": 604,
+            "left": 580,
+            "text": "schedule"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 821,
+            "left": 683,
+            "text": "person_off\nDeactivated"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [
+          {
+            "a": "ACTIVE",
+            "b": "",
+            "overlap": "100%"
+          },
+          {
+            "a": "ACTIVE",
+            "b": "",
+            "overlap": "100%"
+          }
+        ],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 893
+      },
+      "shot": "QA/bug-report/screenshots/users.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/settings/users/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Roles",
+    "route": "/settings/roles",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 1225
+      },
+      "shot": "QA/bug-report/screenshots/roles.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "DIV",
+            "cls": "flex flex-col gap-2 w-fit shrink-0",
+            "right": 921,
+            "left": 364,
+            "text": "groups\nAll\ncheck_circle\nActive\nperson_of"
+          },
+          {
+            "tag": "DIV",
+            "cls": "text-muted-foreground inline-flex h-10- items-center justify",
+            "right": 921,
+            "left": 364,
+            "text": "groups\nAll\ncheck_circle\nActive\nperson_of"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 444,
+            "left": 364,
+            "text": "groups\nAll"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[15px]",
+            "right": 405,
+            "left": 381,
+            "text": "groups"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 555,
+            "left": 452,
+            "text": "check_circle\nActive"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[15px]",
+            "right": 493,
+            "left": 469,
+            "text": "check_circle"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 675,
+            "left": 563,
+            "text": "person_off\nInactive"
+          },
+          {
+            "tag": "SPAN",
+            "cls": "material-symbols-outlined text-[15px]",
+            "right": 604,
+            "left": 580,
+            "text": "person_off"
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "data-[state=active]:bg-purple dark:data-[state=active]:text-",
+            "right": 817,
+            "left": 683,
+            "text": "link_off\nUnassigned"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 1225
+      },
+      "shot": "QA/bug-report/screenshots/roles.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/settings/roles/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Permission Matrix",
+    "route": "/settings/roles/permission-matrix",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "TABLE",
+            "cls": "w-full caption-bottom text-sm",
+            "right": 2225,
+            "left": 93,
+            "text": "MODULE\tTEST SECURITY MANAGER\tTEST FACILI"
+          },
+          {
+            "tag": "THEAD",
+            "cls": "[&_tr]:border-b",
+            "right": 2225,
+            "left": 93,
+            "text": "MODULE\tTEST SECURITY MANAGER\tTEST FACILI"
+          },
+          {
+            "tag": "TR",
+            "cls": "hover:bg-muted/50 data-[state=selected]:bg-muted transition-",
+            "right": 2225,
+            "left": 93,
+            "text": "MODULE\tTEST SECURITY MANAGER\tTEST FACILI"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 1598,
+            "left": 1402,
+            "text": "SYSTEM INTEGRATOR ADMIN"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 1758,
+            "left": 1598,
+            "text": "ORGANIZATION ADMIN"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 1945,
+            "left": 1758,
+            "text": "SYSTEM INTEGRATOR USER"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 2085,
+            "left": 1945,
+            "text": "VIEWER"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 2225,
+            "left": 2085,
+            "text": "SUPER ADMIN"
+          },
+          {
+            "tag": "TBODY",
+            "cls": "[&_tr:last-child]:border-0",
+            "right": 2225,
+            "left": 93,
+            "text": "apartment\nBuilding\n\n5 actions\n\nexpand_mo"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 10493
+      },
+      "shot": "QA/bug-report/screenshots/permission-matrix.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [
+          {
+            "tag": "TABLE",
+            "cls": "w-full caption-bottom text-sm",
+            "right": 2149,
+            "left": 17,
+            "text": "MODULE\tTEST SECURITY MANAGER\tTEST FACILI"
+          },
+          {
+            "tag": "THEAD",
+            "cls": "[&_tr]:border-b",
+            "right": 2149,
+            "left": 17,
+            "text": "MODULE\tTEST SECURITY MANAGER\tTEST FACILI"
+          },
+          {
+            "tag": "TR",
+            "cls": "hover:bg-muted/50 data-[state=selected]:bg-muted transition-",
+            "right": 2149,
+            "left": 17,
+            "text": "MODULE\tTEST SECURITY MANAGER\tTEST FACILI"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 454,
+            "left": 275,
+            "text": "TEST SECURITY MANAGER"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 626,
+            "left": 454,
+            "text": "TEST FACILITY MANAGER"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 766,
+            "left": 626,
+            "text": "FACILITY MANAGER"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 906,
+            "left": 766,
+            "text": "ESG MANAGER"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 1046,
+            "left": 906,
+            "text": "EXECUTIVE"
+          },
+          {
+            "tag": "TH",
+            "cls": "h-10 px-2 align-middle whitespace-nowrap [&:has([role=checkb",
+            "right": 1186,
+            "left": 1046,
+            "text": "SECURITY"
+          }
+        ],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 10493
+      },
+      "shot": "QA/bug-report/screenshots/permission-matrix.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/settings/roles/permission-matrix/",
+    "consoleErrors": []
+  },
+  {
+    "name": "Workflow",
+    "route": "/settings/roles/workflow",
+    "desktop": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 477
+      },
+      "shot": "QA/bug-report/screenshots/workflow.desktop.png"
+    },
+    "mobile": {
+      "diag": {
+        "horizontalOverflowPx": 0,
+        "overflowingElements": [],
+        "brokenImages": [],
+        "rawPlaceholders": [],
+        "zeroStateMarkers": [],
+        "buttonOverlaps": [],
+        "h1Count": 5,
+        "mainCount": 2,
+        "bodyTextLen": 477
+      },
+      "shot": "QA/bug-report/screenshots/workflow.mobile.png"
+    },
+    "finalUrl": "https://test.alt-pulse.com/settings/roles/workflow/",
+    "consoleErrors": []
+  }
+]
