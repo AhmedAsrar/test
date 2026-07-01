@@ -7,6 +7,7 @@
  */
 export type NavGroup =
   | 'Core'
+  | 'Monitoring'
   | 'AI & Intelligence'
   | 'Operations'
   | 'AI Engineer'
@@ -30,6 +31,9 @@ export const APP_ROUTES: AppRoute[] = [
   { name: 'Portfolio Dashboard', path: '/', group: 'Core', titlePattern: /Portfolio Dashboard|Pulse/i, integrated: true },
   { name: 'Asset Management', path: '/asset-management', group: 'Core', titlePattern: /Pulse/i, integrated: true },
   { name: 'Overview Map (Portfolio)', path: '/overview-map', group: 'Core', titlePattern: /Pulse/i, integrated: true },
+
+  // Monitoring
+  { name: 'Alarm Center', path: '/alarms', group: 'Monitoring', titlePattern: /Alarm|Pulse/i, integrated: true },
 
   // AI & Intelligence
   { name: 'AI Reports', path: '/reports', group: 'AI & Intelligence', titlePattern: /Report|Pulse/i, integrated: true },

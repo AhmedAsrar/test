@@ -282,9 +282,9 @@ async function main() {
       pdf: path.join(ROOT, 'QA', 'test-report', 'Test_Report_Pulse_1.1.0.pdf'),
       brand: 'Pulse 1.1.0',
       sub: 'QA Automation & Test Report',
-      badge: 'CROSS-BROWSER SUITE — 628 / 637 PASSED',
+      badge: 'CROSS-BROWSER SUITE — 777 / 791 PASSED',
       badgeColor: 'green',
-      strip: '4 flaky (recovered) · 1 data-timing fail · 4 skipped · 22 defects logged separately',
+      strip: '9 flaky (recovered) · 1 data-timing fail · 4 skipped · 62 defects logged separately',
       meta: [
         '**Application:** Pulse 1.1.0 — https://test.alt-pulse.com',
         '**Build:** v1.1.0_TEST · **Browsers:** Chrome, Edge, Firefox, Brave',
@@ -302,9 +302,9 @@ async function main() {
       pdf: path.join(ROOT, 'QA', 'bug-report', 'Bug_Report_Pulse_1.1.0.pdf'),
       brand: 'Pulse 1.1.0',
       sub: 'Defect / Bug Report',
-      badge: '22 DEFECTS · 6 HIGH · 8 MEDIUM · 8 LOW',
+      badge: '62 FINDINGS · 42 APP/QA + 20 BMS-DOMAIN',
       badgeColor: 'amber',
-      strip: 'Cross-browser execution + UI audit + live exploratory & RBAC findings, with screenshots',
+      strip: 'Cross-browser execution + UI audit + live exploratory/RBAC + client-workbook cross-check, with screenshots',
       meta: [
         '**Application:** Pulse 1.1.0 — https://test.alt-pulse.com',
         '**Build:** v1.1.0_TEST · **Browsers:** Chrome, Edge, Firefox, Brave',

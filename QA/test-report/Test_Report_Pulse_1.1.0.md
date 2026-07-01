@@ -14,16 +14,16 @@
 
 | Metric | Value |
 |--------|-------|
-| Automated test executions | **637** |
-| Passed | **628** (98.6 %) |
-| Flaky (passed on retry) | **4** |
-| Failed (final) | **1** — live-data first-paint timing, not an app defect |
+| Automated test executions | **791** |
+| Passed | **777** (98.2 %) |
+| Flaky (passed on retry) | **9** |
+| Failed (final) | **1** — live-data first-paint timing (asset-inventory streaming), not an app defect |
 | Skipped | **4** — conditional/known-issue guards |
 | Browsers covered | **Chrome, Edge, Firefox, Brave** |
 | Testing types covered | 9 (functional, UI/UX, cross-browser, responsive, security, performance, RBAC, exploratory, smoke/auth) |
-| Wall-clock (full combined run) | 18.4 min |
+| Wall-clock (full combined run) | 18.2 min |
 
-> **Two-track verdict.** The **automated cross-browser suite is functionally green** — the single failure and four flakes are all live-data / first-paint latency on the staging server and pass on isolated re-run. A separate **live exploratory + RBAC pass** surfaced **22 defects** (6 High · 8 Medium · 8 Low), all catalogued in the Defect Report. The two High-priority items are RBAC/security issues (broken access control + dashboard data-scope leak).
+> **Two-track verdict.** The **automated cross-browser suite is functionally green** — the failures and flakes are all live-data / first-paint latency on the staging server (the asset inventory streaming in as "Scanning asset fleet…", and tablet-viewport reflow) and pass on isolated re-run. A separate **live exploratory + RBAC pass** surfaced **22 defects** (6 High · 8 Medium · 8 Low), all catalogued in the Defect Report. The two High-priority items are RBAC/security issues (broken access control + dashboard data-scope leak).
 
 ---
 
@@ -35,7 +35,7 @@ Each cross-browser suite runs on all four browsers (Chrome / Edge / Firefox / Br
 |---|----------------|----------------|:-----------:|----------|
 {{SUITE_ROWS}}
 
-> **Total unique automated test cases catalogued: {{UNIQUE_COUNT}}.** The cross-browser suites execute on 4 browsers (plus tablet/mobile/performance projects), giving **637** total executions in the combined run.
+> **Total unique automated test cases catalogued: {{UNIQUE_COUNT}}.** The cross-browser suites execute on 4 browsers (plus tablet/mobile/performance projects), giving **791** total executions in the combined run — now including the **Alarm Center**, drill-down (device + hierarchy) and account-control coverage added this cycle.
 
 ---
 
@@ -73,6 +73,8 @@ Supporting projects: `setup` (one-time authentication), `anonymous` (logged-out 
 
 **Core** — Portfolio Dashboard (hero, hierarchy counters, Energy/Water/Cost/CO₂ KPIs, alarm summary, building-performance cards, immediate-actions panel), Asset Management (BMS section, inventory summary, device categories, site scope), Overview Map (map canvas, 2D/3D toggle, site list, hover search).
 
+**Monitoring** — Alarm Center (`/alarms`): Live / Historical / Analytics views, the four clickable severity summary cards (which act as filters), device-type filter chips with count badges, alarm search (positive + no-results edge), per-row Acknowledge / Clear / assignee controls, pagination, and console/placeholder health. Read-only — alarms are never actually acknowledged or cleared.
+
 **AI & Intelligence** — AI Chat (composer, message echo, response), AI Insights (hierarchy selector, contextual insights, recommended actions), AI Reports (header + seven report tabs, section switching, placeholder guard), Energy Intelligence (opportunity filters), Compliance (frameworks, gap analysis, roadmap, AI advisor).
 
 **AI Engineer** — HVAC Optimization and Smart Commissioning (Integration-Pending marker, content render, graceful no-crash).
@@ -81,7 +83,7 @@ Supporting projects: `setup` (one-time authentication), `anonymous` (logged-out 
 
 **Settings** — Profile (account details, access level, activity), Theme Settings (light/dark modes, palette tokens, import/export/reset/save), Users (table, stat cards, status tabs, search, pagination, 3-step invite wizard with validation), Roles (create-role wizard, status filters), Permission Matrix (MODULE column + role columns), Workflow (role hierarchy nodes, zoom/fit controls).
 
-**Shell & Quality** — global navigation (every route loads, reload stability, sidebar rail, logo home), UI consistency (no overflow, fonts, footer version, theme toggle), rendering (integrated pages show real content; not-integrated pages fail gracefully), performance budget, known-issue guard.
+**Shell & Quality** — global navigation (every route loads, reload stability, sidebar rail, logo home), UI consistency (no overflow, fonts, footer version, theme toggle), account-area controls (Notifications, Dark Mode, Keep-open, Logout), rendering (integrated pages show real content; not-integrated pages fail gracefully), performance budget, known-issue guard.
 
 **Auth (anonymous)** — login element rendering, password masking, valid/invalid credential handling, empty/malformed submissions, SQL-injection & XSS safety, unauthenticated deep-link redirects, full login→logout flow.
 
@@ -115,6 +117,7 @@ Per the development team, the following are **known** and **excluded** from the 
 # 8. Honest gaps (out of scope)
 
 - **Load / stress testing** — no concurrent-user / soak simulation was performed.
+- **Deeper drill-down screens** — **now automated** this cycle: **Device Detail** (Asset → category → HVAC device, Live/Historical/Analytics, fan/runtime telemetry) via `specs/asset-detail/device-detail.spec.ts`, and **Organisation → Building** hierarchy detail via `specs/hierarchy/detail-pages.spec.ts`. Validated across 4 browsers (**109 passed / 117**; the Brave failures are the documented Brave-under-parallel-load contention, not app or code defects — they pass on isolated/Chromium runs). The remaining Floor→Room per-level screens and the map-pin drill-down are the next expansion.
 - **Full automated accessibility (axe-core)** — a dedicated WCAG 2.1 A/AA scan is not yet wired into the 1.1.0 suite; landmark/heading structure was captured via the UI audit only.
 - **API / backend testing** — scope is the web UI against live staging; backend endpoints were observed (via network capture) but not directly contract-tested.
 - **Live-data flakes** — the suite runs against live staging, so a few specs are sensitive to first-paint latency; CI retries absorb these.
@@ -149,6 +152,8 @@ node "node_modules/@playwright/test/cli.js" show-report
 - **Defect Report (with screenshots):** [QA/bug-report/Bug_Report_Pulse_1.1.0.pdf](../bug-report/Bug_Report_Pulse_1.1.0.pdf)
 - **Live exploratory screenshots:** [qa-live/](../../qa-live/) (33 captures) and audit screenshots [QA/bug-report/screenshots/](../bug-report/screenshots/) (38 captures).
 - **Comprehensive manual test cases:** [QA/Pulse_1.1.0_Comprehensive_Test_Cases.md](../Pulse_1.1.0_Comprehensive_Test_Cases.md)
+- **Screenshot → automation coverage matrix:** [QA/Pulse_1.1.0_Screenshot_Coverage_Matrix.md](../Pulse_1.1.0_Screenshot_Coverage_Matrix.md) — cross-verifies all 48 application screenshots against the suite.
+- **Client QA workbook cross-check:** `Pulse_QA_Complete_v2.xlsx` (150 manual cases, 20 BMS-domain bugs, 7×35 RBAC matrix) — its operational findings are consolidated into **Part D** of the Defect Report, with the critical items re-verified live.
 
 ---
 

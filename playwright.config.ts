@@ -31,8 +31,26 @@ const BRAVE_PATH = BRAVE_CANDIDATES.find((p) => {
 });
 
 /** Spec globs that make up the authenticated, cross-browser functional suite. */
-const CROSS_BROWSER_MATCH = '**/specs/**/*.spec.ts';
-const CROSS_BROWSER_IGNORE = ['**/*.anon.spec.ts', '**/responsive.spec.ts', '**/performance.spec.ts'];
+// The original module specs live under `specs/`; the QA suite adds grouped
+// folders (smoke, sanity, regression, e2e, ui, integration). Accessibility and
+// the anonymous security specs run on dedicated projects (see below), and
+// responsive/performance specs are routed to their own viewport projects, so
+// they are excluded from the authenticated cross-browser matrix here.
+const CROSS_BROWSER_MATCH = [
+  '**/specs/**/*.spec.ts',
+  '**/smoke/**/*.spec.ts',
+  '**/sanity/**/*.spec.ts',
+  '**/regression/**/*.spec.ts',
+  '**/e2e/**/*.spec.ts',
+  '**/ui/**/*.spec.ts',
+  '**/integration/**/*.spec.ts',
+];
+const CROSS_BROWSER_IGNORE = [
+  '**/*.anon.spec.ts',
+  '**/specs/**/responsive.spec.ts',
+  '**/specs/**/performance.spec.ts',
+  '**/accessibility/**',
+];
 
 export default defineConfig({
   testDir: './tests/e2e',
@@ -68,7 +86,7 @@ export default defineConfig({
     // 2. Anonymous project — login, redirect and security tests (logged-out).
     {
       name: 'anonymous',
-      testMatch: '**/specs/**/*.anon.spec.ts',
+      testMatch: '**/*.anon.spec.ts',
       use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
 
@@ -127,6 +145,15 @@ export default defineConfig({
     {
       name: 'performance',
       testMatch: '**/specs/**/performance.spec.ts',
+      use: { ...devices['Desktop Chrome'], channel: 'chrome', storageState: STORAGE_STATE },
+      dependencies: ['setup'],
+    },
+
+    // 4b. Accessibility — structural a11y checks run on a single browser
+    //     (Chrome); a11y outcomes are not browser-specific.
+    {
+      name: 'accessibility',
+      testMatch: '**/accessibility/**/*.spec.ts',
       use: { ...devices['Desktop Chrome'], channel: 'chrome', storageState: STORAGE_STATE },
       dependencies: ['setup'],
     },

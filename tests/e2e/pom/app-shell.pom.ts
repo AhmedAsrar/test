@@ -29,6 +29,18 @@ export class AppShell {
     );
   }
 
+  /**
+   * The account-area notifications bell (distinct from the primary nav bell,
+   * which links to `/alarms`). This one is a `<button>` in the rail footer.
+   */
+  get notificationsButton(): Locator {
+    return this.page.locator('button.w-full:has(svg.lucide-bell)').first();
+  }
+
+  async openNotifications(): Promise<void> {
+    await this.notificationsButton.click();
+  }
+
   get footer(): Locator {
     return this.page.getByText(/v1\.1\.0_TEST/i);
   }
