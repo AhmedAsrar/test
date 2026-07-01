@@ -1,7 +1,7 @@
 # Pulse 1.1.0 — Consolidated Test Report
 
 **Application:** Pulse 1.1.0 — Building Operations Platform ( https://test.alt-pulse.com )
-**Build marker:** `v1.1.0_TEST` · © 2026
+**Build marker:** `v1.1.0_TEST` → retested against `v1.1.2_TEST` (01 Jul 2026) · © 2026
 **Account under test:** Organization Admin (ALEC organization) + a scoped Facility Manager sub-user
 **Test framework:** Playwright `@playwright/test` ^1.61.0 (TypeScript) + live Playwright MCP exploratory pass
 **Report date:** 2026-06-18

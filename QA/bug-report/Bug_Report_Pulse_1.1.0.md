@@ -3,8 +3,8 @@
 **Application:** Pulse 1.1.0_TEST — Building Operations Platform
 **Environment:** https://test.alt-pulse.com/
 **Account under test:** Organization Admin (ALEC organization)
-**Build marker:** `v1.1.0_TEST` · © 2026
-**Prepared:** 2026-06-18
+**Build marker (original):** `v1.1.0_TEST` · **Retest build:** `v1.1.2_TEST` (deployed 01 Jul 2026) · © 2026
+**Prepared:** 2026-06-18 · **Retest:** 2026-07-01
 
 This report combines three things in one document:
 
@@ -14,6 +14,41 @@ This report combines three things in one document:
 - **Part D — BMS operational & data-integrity findings**, cross-checked against the client QA workbook `Pulse_QA_Complete_v2.xlsx`, with the headline critical items re-verified live.
 
 > **About the earlier "45".** That number came from the **first cross-browser suite run**, which produced **45 failing tests**. Investigation showed those were **test-side issues** (selectors and timing in the new specs), **not** application bugs — the same 45 failed identically on every browser. They were all fixed and the suite is now green (see Part A). The genuine **application** defects — the request's focus ("incorrect page rendering, buttons mismatch alignments") — are catalogued in **Part B** from an automated visual/DOM audit of all 19 pages.
+
+---
+
+# Retest — Build v1.1.2_TEST (01 Jul 2026)
+
+The developer deployed **v1.1.2_TEST** (footer confirmed) with fixes for the items in their bug tracker and marked almost every defect **"Done."** Each verdict below was **re-verified live** (Playwright MCP, Org Admin) against the new build. Legend: ✅ **Fixed** · ❌ **Still open** · ◐ **Partial** · ↺ **Re-framed by design change** · ⏳ **Pending deeper/role-based retest**.
+
+> **Headline:** the **Critical** logout defect is **NOT fixed**. `POST /api/user/refresh` still returns `500 "Organization is not defined"` (3/3), and forcing token expiry + reload still logs the user out to `/login` with tokens cleared — despite being marked "Done."
+
+| Bug | Area | Dev claim | Retest verdict (v1.1.2) | Evidence |
+|-----|------|-----------|-------------------------|----------|
+| **BUG-030** | Auth — token refresh (**Critical**) | Done | ❌ **Still open** | `/api/user/refresh` → `500` ×3; forced expiry + reload → `/login`, tokens cleared |
+| BUG-005 | Overview Map — AI modal auto-open | Done ("feature") | ✅ Fixed | No `z-[1100]` auto-modal on load |
+| BUG-009 | Dashboard — blank building card | Done | ✅ Fixed | STRIVE Tent now real image; no `-- %` |
+| BUG-012 | Overview Map — legend overflow | Done | ✅ Fixed | Equipment bar right = 1536 = viewport |
+| BUG-029 | Alarm Details — badge overlaps X | Done | ✅ Fixed | Badge and X clearly separated |
+| BUG-031 | Overview Map — zoom buttons covered | Done | ✅ Fixed | Zoom button is topmost (not covered) |
+| BUG-032 | Dashboard — card hover jitter | Done | ✅ Fixed | Cards steady 460px on hover; grid-expand removed |
+| BUG-033 | Asset Mgmt — Fire Alarm phantom | Done | ✅ Fixed | Fire Alarm chip = 0; card absent |
+| BUG-037 | Overview Map — panel re-open | Done | ✅ Fixed | "Expand Portfolio Performance" toggle added |
+| BUG-041 | HVAC Live — Ambient overlaps SUPPLY | Done | ✅ Fixed | Card bottom 378 clears SUPPLY top 381 (0 overlap) |
+| BUG-042 | Chatbot — scroll chaining | Done | ✅ Fixed | `.chat-body` now `overscroll-behavior: contain` |
+| BUG-004 | AI Reports — mobile overflow | Done | ✅ Fixed | No horizontal overflow @ 390px |
+| BUG-013 | Energy — mobile overflow | Done | ✅ Fixed | No horizontal overflow @ 390px |
+| BUG-035 | Notifications — header clipped @100% | Done | ❌ **Still open** | Header top −60px (above viewport) at 770px |
+| BUG-036 | Global — building card font brightness | Done | ❌ **Still open** | Subtitle still `text-white/60` (unchanged) |
+| BUG-008 | Asset Mgmt — truncated card titles | Done | ◐ Partial | Still truncated at rest ("Occupancy S…"); marquee-on-hover added |
+| BUG-001 / 002 / 010 / 011 | Settings — mobile table/filter overflow | Done | ◐ Partial | No **page** overflow @ 390px, but email states "Settings responsive not started" — table internals need spot-check |
+| BUG-021 / BUG-039 | RBAC data scope / hard-refresh scope | Done | ↺ Re-framed | Org Admin now sees **full org** (7 sites · 15 buildings · 1114 devices) on every load — the email states Org Admin should have full access, so this is now by design. **Real test:** create a *scoped* user and confirm they see only their scope (pending) |
+| BUG-034 | Alarm JSON copy button | Done | ⏳ Pending | Sampled alarm had no Additional-Information JSON to test |
+| BUG-003, 006, 007, 014–028 (rest of C), 038, 040 | Various | Done | ⏳ Pending | Re-verification in progress |
+| BUG-020 | RBAC broken access control | Done | ⏳ Pending | Requires a non-admin role/user (RBAC phase) |
+| WB-01 … WB-20 | BMS domain (Part D) | Mostly Done; WB-04/05/10/11/13 "Not yet Integrated" | ⏳ Pending | Domain/data re-verification phase |
+
+**Retest so far:** **13 Fixed** ✅ · **3 Still open** ❌ (incl. 1 **Critical**) · **~6 Partial/Re-framed** · remainder **Pending** (RBAC role-based + BMS-domain phases). Full re-verification of the RBAC scenarios (the email's step 4) and the BMS/Part-D items is the next phase.
 
 ---
 
